@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int ktraBoiSo(n) {
+	if (n%3==0)
+	{ return 0;}
+return 1;
+}
+int main() { 
+	int n =3;
+	int kq= ktraBoiSo(n);
+	if (kq==0)
+	cout<<"Day la boi so cua 3\n";
+	else cout <<"Day khong la boi so cua 3 \n";
+return 0;

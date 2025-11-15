@@ -1,9 +1,8 @@
 kiemtracau2a(){
- a=$1;
- if ((a % 3 ==0 ));then
- echo " $a day la boi so cua a"
- else
- echo "$a khong phai la boi so cua a"
+ int a =6;
+	if(a %3 ==0){
+	cout << " day la boi so cua 3";
+	else
+	cout <<" day khong phai la boi so cua 3";
+return 0;	
 }
-kiemtracau2a 6
-kiemtracau2a 7

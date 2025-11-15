@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+Echo "kiem Tran Duong am Nhap vao"
+while IFS=: read -r NhapSo
+do
+	echo -n "Nhap cho $NhapSo:"
+	read -s input
+	echo 
+	if [ "$NhapSo" -gt 0 ]; then
+		echo "Day la so duong"
+	else
+		echo "Day la so am"
+	fi
+done

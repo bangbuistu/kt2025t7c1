@@ -1,0 +1,10 @@
+kiemtracau2b()
+{
+	a= $1;
+	if(a % 3 ==0) then
+	echo "Day la boi so cua 3"
+	else
+	echo "Khong phai boi so cua 3"
+	fi
+}
+kiemtracau2b 6

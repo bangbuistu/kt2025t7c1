@@ -1,0 +1,10 @@
+kiemtracau2a()
+{
+	int a=6;
+	if( a %3 == 0)
+	{
+	cout << "Day la boi so cua 3";
+	}else
+	cout << "Khong phai boi so cua 3";
+	return 0;
+}

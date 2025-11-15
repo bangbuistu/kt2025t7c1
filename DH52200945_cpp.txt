@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+bool ktchanle (int a){
+if(NhapSo(a))>0){
+	if(a%2=0){
+		cout<<"Số chẵn";
+	}else{
+		cout<<"Số lẻ";
+}else{
+	cout<<"Không phải số nguyên";
+	}
+}
+int main(){
+	int a;
+	ktchanle(a);
+	return 0;
+}

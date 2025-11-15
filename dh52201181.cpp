@@ -12,8 +12,8 @@ bool ktSoNguyenBoi3(int n){
 int main(){
 	int n = 3;
 	if(ktSoNguyenBoi3(n))
-		cout<<n<<"la so nguyen to";
+		cout<<n<<"la so nguyen boi 3";
 	else
-		cout<<n<<"khong phai la so nguyen to";
+		cout<<n<<"khong phai la so nguyen boi 3";
 	return 0;
 }

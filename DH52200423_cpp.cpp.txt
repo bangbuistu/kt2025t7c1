@@ -12,3 +12,4 @@ int main() {
 	cout<<"Day la boi so cua 3\n";
 	else cout <<"Day khong la boi so cua 3 \n";
 return 0;
+}

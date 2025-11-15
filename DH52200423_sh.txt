@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+ktraBoiSo3(){
+n=$1
+
+if (n%3 == 0);then
+	echo "Day la boi so 3";
+else 
+	echo "Day khong la boi so 3";
+fi
+}
+ktraBoiSo3 3
